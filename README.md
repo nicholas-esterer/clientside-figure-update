@@ -12,3 +12,4 @@ To run programs in this directory, do `source venv/bin/activate` after running
 ## Running
 
 Run `python app.py` and navigate to the displayed link in your browser.
+To run the broken version, run `WORKING_EXAMPLE=0 python app.py`.

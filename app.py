@@ -42,7 +42,7 @@ if WORKING_EXAMPLE:
     function(update_display_n_clicks,figure_) {
         console.log("figure");
         console.log(figure_);
-        let figure = JSON.parse(JSON.stringify(figure_));
+        let figure = json_copy(figure_);
         if (!update_display_n_clicks) {
             update_display_n_clicks = 0;
         }
